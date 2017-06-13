@@ -12,12 +12,16 @@ gem 'rails', '~> 5.1.1'
 gem 'pg', '~> 0.18'
 gem 'paperclip', '~> 4.3', '>= 4.3.6'
 gem 'simple_form', '~> 3.2', '>= 3.2.1'
-gem 'foundation-rails'
-# gem 'bootstrap', '~> 4.0.0.alpha6' 
+# gem 'foundation-rails'
+gem 'jquery-rails', '~> 4.1', '>= 4.1.1'
+gem 'bootstrap-sass', '~> 3.3.6'
+
+gem 'sprockets-rails', '~> 3.0', '>= 3.0.4'
+ 
 # Use Puma as the app server
 gem 'puma', '~> 3.7'
 # Use SCSS for stylesheets
-gem 'sass-rails', '~> 5.0'
+gem 'sass-rails', '>= 3.2'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # See https://github.com/rails/execjs#readme for more supported runtimes
