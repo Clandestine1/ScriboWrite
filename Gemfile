@@ -15,7 +15,7 @@ gem 'simple_form', '~> 3.2', '>= 3.2.1'
 # gem 'foundation-rails'
 gem 'jquery-rails', '~> 4.1', '>= 4.1.1'
 gem 'bootstrap-sass', '~> 3.3.6'
-
+gem 'devise'
 gem 'sprockets-rails', '~> 3.0', '>= 3.0.4'
  
 # Use Puma as the app server
