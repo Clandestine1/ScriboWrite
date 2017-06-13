@@ -10,6 +10,10 @@ end
 gem 'rails', '~> 5.1.1'
 # Use postgresql as the database for Active Record
 gem 'pg', '~> 0.18'
+gem 'paperclip', '~> 4.3', '>= 4.3.6'
+gem 'simple_form', '~> 3.2', '>= 3.2.1'
+gem 'foundation-rails'
+# gem 'bootstrap', '~> 4.0.0.alpha6' 
 # Use Puma as the app server
 gem 'puma', '~> 3.7'
 # Use SCSS for stylesheets
