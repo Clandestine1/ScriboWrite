@@ -4,9 +4,9 @@ class PostsController < ApplicationController
   before_action :owned_post, only: [:edit, :update, :destroy]  
 
 
-  def index
-    @posts = Post.all
-  end
+  def index  
+    @posts = Post.all.order('created_at DESC').page params[:page]
+  end 
   #sets index action and route
   def show
   end

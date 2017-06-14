@@ -17,7 +17,7 @@ gem 'jquery-rails', '~> 4.1', '>= 4.1.1'
 gem 'bootstrap-sass', '~> 3.3.6'
 gem 'devise'
 gem 'sprockets-rails', '~> 3.0', '>= 3.0.4'
- 
+gem 'kaminari', '~> 0.16.3'  
 # Use Puma as the app server
 gem 'puma', '~> 3.7'
 # Use SCSS for stylesheets
