@@ -17,11 +17,7 @@ gem 'jquery-rails', '~> 4.1', '>= 4.1.1'
 gem 'bootstrap-sass', '~> 3.3.6'
 gem 'devise'
 gem 'sprockets-rails', '~> 3.0', '>= 3.0.4'
-gem 'merit'
-gem 'autoprefixer-rails'
-gem 'font-awesome-rails'
-# Used to implement at.js for auto complete mentions/emojis
-gem 'jquery-atwho-rails'
+ 
 # Use Puma as the app server
 gem 'puma', '~> 3.7'
 # Use SCSS for stylesheets
@@ -30,25 +26,7 @@ gem 'sass-rails', '>= 3.2'
 gem 'uglifier', '>= 1.3.0'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
-gem 'carrierwave'
-gem 'friendly_id', '~> 5.0'
-gem 'fog'
-gem 'fog-aws'
-gem 'will_paginate', '~> 3.1.0'
-gem 'public_activity'
-
-gem 'acts_as_votable', '~> 0.10.0'
-gem 'acts_as_commentable'
-gem 'acts_as_follower'
-gem 'counter_culture', '~> 0.1.33'
-
-gem 'faker'
-gem 'populator'
-gem 'auto_html', '~>1.6.4'
-gem 'sanitize'
-
-gem 'active_model_serializers'
-
+gem 'haml'
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 4.2'
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
